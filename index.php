@@ -5,16 +5,16 @@ include_once("header.php")
 	<body>
        
               
-          <main>
+          <main class="container"> 
               <div class="p-5 mb-4 bg-light rounded-3">
                   <center>
 
                 
                 <div class="container-fluid py-5">
 
-                  <h1 class="display-5 fw-bold">Iniciar sesion</h1>
-                  <p class="col-md-8 fs-4">Inicia sesion para poder ver los datos que ofrecemos</p>
-                  <button class="btn btn-primary btn-lg" type="button" ><a href="iniciodesesion.php" style="color:white"> Presiona Aquí </a></button>
+                  <h1 class="display-5 fw-bold">Visualizador de datos Grafico</h1>
+                  <p class="col-md-8 fs-4">Ve los datos en tiempo real de tus plantas</p>
+                  <button class="btn btn-primary btn-lg" type="button" ><a href="Graficos.php" style="color:white"> Presiona Aquí </a></button>
                 </center>
                 </div>
               </div>
@@ -37,7 +37,7 @@ include_once("header.php")
               </div>
           
               <footer id="main-footer">
-                <p>&copy; 2021 Todos los derechos reservados:p</p>
+                <center><p>&copy; 2021 Todos los derechos reservados</p><center>
             </footer> 
             </div>
           </main>

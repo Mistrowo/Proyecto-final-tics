@@ -11,23 +11,13 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </head>
-
-
-	
-	<header id="main-header">
-		
-		<a id="logo-header" href="#">
-			<span class="site-name">Sistema de regadio Uwudp</span>
-			<span class="site-desc">Monitorio / Automatizacion / Confiabilidad</span>
-		</a> <!-- / #logo-header -->
-
-		<nav>
-			<ul>
-				<li><a href="index.php">Inicio</a></li>
-				<li><a href="Datos.php">Acerca del equipo</a></li>
-				
-                <li><a href="Registro.php">Registro</a></li>
-			</ul>
-		</nav>
-
-	</header>
+<header>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <a href="index.php" class="navbar-brand d-flex align-items-center">
+	  <img src="img/descargar.jfif" width=55 height=50>
+        <strong>.  Sistemas de Regadio Company</strong>
+      </a>
+    </div>
+  </div>
+</header>

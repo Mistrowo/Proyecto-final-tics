@@ -1,0 +1,17 @@
+{
+    "port":"COM3",
+    "baudrate": 9600,
+    "credentials" : {
+    "host":"localhost",
+    "database":"db_arduino",
+    "user":"root",
+    "password":"",
+    "raise_on_warnings": "True"
+    },
+    "tableName": "datos",
+    "fields": [
+        { "name":"temp_value","type":"INT(10)" },
+        { "name":"humedad_value","type":"INT(10)" },
+        { "name":"luz_value","type":"INT(10)" }
+    ]
+}
