@@ -145,13 +145,13 @@ mysqli_close($enlace);
                 }
                 var chart3 = new CanvasJS.Chart("Luz", {
                     title: {
-                        text: "Tiempo vs. Humedad"
+                        text: "Tiempo vs. Luz"
                     },
                     axisX: {
                         title: "Tiempo",
                     },
                     axisY: {
-                        title: "Humedad",
+                        title: "Luz",
                     },
                     data: [{type: "line", dataPoints: data2}],
                 });
