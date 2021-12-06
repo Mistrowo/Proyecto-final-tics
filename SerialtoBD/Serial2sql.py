@@ -69,3 +69,13 @@ if __name__ == "__main__":
                 doc()
                 exit()
         s.run()
+
+#1
+#cd C:\xampp\mysql\bin
+#mysql.exe -u root -p
+#Use db_arduino
+#CREATE TABLE datos (id INT(9) NOT NULL AUTO_INCREMENT,temp_value INT(10),humedad_value INT(10),luz_value INT(10),PRIMARY KEY (id));
+
+#2
+#cd C:\xampp\htdocs\SerialtoBD
+#python serial2sql.py -o output.sql
